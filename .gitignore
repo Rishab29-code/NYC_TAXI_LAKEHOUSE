@@ -1,0 +1,25 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+
+# Local Trino installation and logs
+trino/
+trino-cli
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local source dataset and downloaded CLI
+/yellow_tripdata_2025-01.parquet
+/trino-cli
